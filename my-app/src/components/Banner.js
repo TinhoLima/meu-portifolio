@@ -11,7 +11,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Bem-vindos ao meu Portifolio!</span>
-                        <h1>{`Olá, meu nome é Alison!`}</h1>
+                        <h1>Olá, meu nome é Alison!</h1>
                         <TypeAnimation
                             sequence={[
                                 'E sou um Web Developer',
