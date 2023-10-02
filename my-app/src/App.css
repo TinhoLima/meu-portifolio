@@ -84,13 +84,6 @@ select:focus {
   outline: none;
 }
 
-@media (min-width:1700px) {
-  main .container {
-    max-width: 100%;
-    padding: 0 150px;
-  }
-}
-
 p.success {
   color: green;
 }
@@ -705,8 +698,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /*********** JQuery **********************/
-@media (max-width: 500px) {
-
+@media (max-width: 514px) {
   nav.navbar {
     background-color: #121212;
     padding: 0;
@@ -773,6 +765,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .contact h1 {
     font-size: 40px;
+  }
+
+  .contact .col-button {
+    text-align: center;
+  }
+  
+  .contact button {
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px 0px;
+    width: 300px;
   }
 
 }
