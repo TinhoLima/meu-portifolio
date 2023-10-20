@@ -27,7 +27,8 @@ export const Banner = () => {
                             repeat={Infinity}
                         />
                         <p>Sejam muito bem-vindos! Meu nome é Alison Coutinho e sou apaixonado por desenvolvimento e por toda a área de tecnologia. Nesta página você vai encontrar meus projetos pessoais, minhas skills e minhas informações de contato.</p>
-                        <button className="banner-cv"><a href={pdf} download="file-pdf">Download CV<ArrowRightCircle size={20}/></a></button>
+                        <a  href={pdf} download="file-pdf"><button className="banner-cv">Download CV<ArrowRightCircle size={20}/></button></a>
+                        {/* <button className="banner-cv"><a href={pdf} download="file-pdf">Download CV<ArrowRightCircle size={20}/></a></button> */}
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg1} alt="Headder Img" />

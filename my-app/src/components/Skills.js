@@ -42,31 +42,31 @@ export const Skills = () => {
                             </TrackVisibility>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="img" />
+                                    <img src={meter1} alt="img" draggable={false} />
                                     <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="img" />
+                                    <img src={meter2} alt="img" draggable={false}/>
                                     <h5>Angular</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="img" />
+                                    <img src={meter2} alt="img" draggable={false}/>
                                     <h5>Node.js</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="img" />
+                                    <img src={meter3} alt="img" draggable={false}/>
                                     <h5>bootstrap</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="img" />
+                                    <img src={meter1} alt="img" draggable={false}/>
                                     <h5>Javascript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="img" />
+                                    <img src={meter1} alt="img" draggable={false}/>
                                     <h5>HTML5</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="img" />
+                                    <img src={meter1} alt="img" draggable={false}/>
                                     <h5>CSS3</h5>
                                 </div>
                             </Carousel>
