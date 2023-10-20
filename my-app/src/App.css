@@ -698,7 +698,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-/*********** JQuery **********************/
+/*********** Media Querie **********************/
 @media (max-width: 514px) {
   nav.navbar {
     background-color: var(--black);
