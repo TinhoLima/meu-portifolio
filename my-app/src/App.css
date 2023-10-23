@@ -277,6 +277,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .banner .tagline {
@@ -353,6 +354,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner img {
   animation: updown 5s linear infinite;
+  
 }
 
 @keyframes updown {
@@ -624,6 +626,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(60.21deg, #41135f -5.91%, #ff6333 111.58%);
   padding: 60px 0 60px 0;
+  overflow-x: hidden;
 }
 
 .contact .img-contact {
@@ -718,8 +721,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .banner img {
-    width: 100%;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: -80px;
   }
 

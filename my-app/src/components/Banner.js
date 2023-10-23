@@ -9,7 +9,7 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={8} xl={7}>
                         <span className="tagline">Bem-vindos ao meu Portifolio!</span>
                         <h1>Olá, meu nome é Alison!</h1>
                         <TypeAnimation
@@ -29,7 +29,7 @@ export const Banner = () => {
                         <p>Sejam muito bem-vindos! Meu nome é Alison Coutinho e sou apaixonado por desenvolvimento e por toda a área de tecnologia. Nesta página você vai encontrar meus projetos pessoais, minhas skills e minhas informações de contato.</p>
                         <a  href={pdf} download="file-pdf"><button className="banner-cv">Download CV<ArrowRightCircle size={20}/></button></a>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={4} xl={5}>
                         <img src={headerImg1} alt="Headder Img" />
                     </Col>
                 </Row>
