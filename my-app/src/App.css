@@ -698,13 +698,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-/*********** Media Querie **********************/
+/************* Media Querie ****************/
 @media (max-width: 514px) {
   nav.navbar {
     background-color: var(--black);
     padding: 0;
   }
 
+  /******* media banner ******/
   .banner {
     padding: 150px 0 150px 0;
   }
@@ -717,11 +718,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .banner img {
-    width: 90%;
+    width: 100%;
     margin-left: 100px;
     margin-top: -80px;
   }
 
+  /******* media skill ******/
   .skill-bx {
     padding: 5px;
     padding: 5px 10px;
@@ -733,11 +735,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .skill-bx p {
     padding: 30px;
     font-size: 20px;
-    /* text-align: justify; */
     letter-spacing: 0.2px;
     margin: 0 0 20px 0;
   }
-  
+
+  /******* media project ******/
   .project {
     padding: 5px;
     width: 100%;
@@ -745,11 +747,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .project p {
     font-size: 20px;
-    /* text-align: justify; */
     letter-spacing: 0.2px;
     margin: 14px auto 30px auto;
   }
 
+  /******* media about ******/
   .about-bx {
     padding: 5px;
   }
@@ -764,6 +766,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: left;
   }
 
+  /******* media contact ******/
   .contact h1 {
     font-size: 40px;
   }
@@ -771,7 +774,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .contact .col-button {
     text-align: center;
   }
-  
+
   .contact button {
     font-weight: 500;
     border-radius: 10px;
