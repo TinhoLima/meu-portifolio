@@ -9,7 +9,7 @@ export const About = () => {
             <Container>
                 <Row className="about-bx">
                     <h2> Sobre mim </h2>
-                    <Col xs={12} md={4} xl={3} className="about-img">
+                    <Col xs={12} md={12} xl={3} className="about-img">
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : "animate__animated animate__fadeOut"}>
@@ -17,7 +17,7 @@ export const About = () => {
                                 </div>}
                         </TrackVisibility>
                     </Col>
-                    <Col xs={12} md={8} xl={9}>
+                    <Col xs={12} md={12} xl={9}>
                         <p>Eu sou Alison Coutinho, <span>Desenvolvedor front-end em formação nas tecnologias HTML, CSS, Javascript e React, além de possuir experiência com back-end na tecnologia Node.js</span>. Tenho 27 anos e a cada experiência me tornando um entusiasta em programação, estou buscando estudar e desenvolver projetos cada vez mais sofisticados que possam levar minhas habilidades há novos horizontes! Claro que juntos fazemos muito mais, por isso quero vivenciar trabalhos em equipe, receber feedbacks e melhorar com eles para que eu possa alcançar minha meta de ser um excelente profissional referência na área.</p>
                     </Col>
                 </Row>

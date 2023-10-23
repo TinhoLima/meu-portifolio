@@ -580,7 +580,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  transition: 2s ease;
 }
 
 .about-bx .about-img {
@@ -649,7 +648,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .contact h1 {
-  font-size: 70px;
+  font-size: 66px;
   font-weight: 500;
   margin-bottom: 80px;
   text-align: center;
@@ -702,7 +701,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************* Media Querie ****************/
-@media (max-width: 514px) {
+@media (max-width: 480px) {
   nav.navbar {
     background-color: var(--black);
     padding: 0;
@@ -738,7 +737,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 30px;
     font-size: 20px;
     letter-spacing: 0.2px;
-    margin: 0 0 20px 0;
+    margin: 0px;
+  }
+  .skill-slider {
+    width: 90%;
+  }
+  .skill-slider .item img{
+    width: 70%;
   }
 
   /******* media project ******/
@@ -770,7 +775,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   /******* media contact ******/
   .contact h1 {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .contact .col-button {
@@ -784,4 +789,90 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 300px;
   }
 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  nav.navbar {
+    background-color: var(--black);
+    padding: 0;
+  }
+
+  /******* media banner ******/
+  .banner .wrap {
+    font-size: 30px;
+  }
+
+  .banner p {
+    font-size: 18px;
+  }
+
+  .banner img {
+    margin-left: -100px;
+    width: 400px;
+    overflow: hidden;
+  }
+
+  /******* media skill ******/
+  .skill-bx {
+    padding: 5px;
+    padding: 5px 10px;
+    margin-top: -200px;
+  }
+  .skill-bx h2 {
+    padding: 20px 0 5px 0;
+  }
+  .skill-bx p {
+    padding: 30px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin: 0px;
+  }
+
+  /******* media project ******/
+  .project {
+    padding: 50px;
+    width: 100%;
+  }
+
+  .project p {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin: 14px auto 30px auto;
+  }
+
+  /******* media about ******/
+  .about-bx {
+    padding: 5px;
+  }
+
+  .about-bx img {
+    width: 30%;
+  }
+
+  .about-bx p {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  /******* media contact ******/
+  .contact h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+  }
+
+  .contact .img-contact {
+    width: 350px;
+  }
+
+  .contact .col-button {
+    text-align: center;
+  }
+
+  .contact button {
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px 0px;
+    width: 300px;
+  }
 }

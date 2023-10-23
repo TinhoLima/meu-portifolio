@@ -23,7 +23,7 @@ export const Skills = () => {
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 2
         }
     };
 
@@ -37,7 +37,7 @@ export const Skills = () => {
                             <TrackVisibility>
                                 {({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__fadeIn" : "animate__animated animate__fadeOut"}>
-                                        <p> Estas são as minhas habilidades e conhecimentos para projetar, desenvolver e depurar softwares.<br></br> São elas: linguagens e frameworks que consigo trabalhar e desenvolver projetos ou tecnologias que estou estudando para aprimorar meu desenvolvimento e meus projetos. </p>
+                                        <p> Estas são as minhas habilidades e conhecimentos para projetar, desenvolver e depurar softwares. São elas: linguagens e frameworks que consigo trabalhar e desenvolver projetos ou tecnologias que estou estudando para aprimorar meu desenvolvimento e meus projetos. </p>
                                     </div>}
                             </TrackVisibility>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">

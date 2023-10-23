@@ -37,11 +37,11 @@ export const Contact = () => {
     return (
         <section className="contact" id="contact-me">
             <Container>
-                <Row className="align-items-center p-4">
-                    <Col md={5}>
+                <Row className="align-items-center p-2">
+                    <Col md={6}>
                         <img className="img-contact" src={contactImg} alt="Contact Us" />
                     </Col>
-                    <Col md={7} >
+                    <Col md={6} >
                         <Row>
                             <TrackVisibility>
                                 {({ isVisible }) =>
