@@ -739,12 +739,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.2px;
     margin: 0px;
   }
-  .skill-slider {
-    width: 90%;
-  }
-  .skill-slider .item img{
-    width: 70%;
-  }
 
   /******* media project ******/
   .project {
