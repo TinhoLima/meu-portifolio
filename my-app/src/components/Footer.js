@@ -16,7 +16,7 @@ export const Footer = () => {
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/alison-coutinho-820328234/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="img"/></a>
                             <a href="https://www.facebook.com/alisson.coutinho.33/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="img"/></a>
-                            <a href="https://github.com/TinhoLim" target="_blank" rel="noreferrer"><img src={navIcon3} alt="img"/></a>
+                            <a href="https://github.com/TinhoLima" target="_blank" rel="noreferrer"><img src={navIcon3} alt="img"/></a>
                         </div>
                         <p>CopyRight 2023. All Right Reserved</p>
                     </Col>
