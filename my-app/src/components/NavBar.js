@@ -50,7 +50,6 @@ export const NavBar = () => {
                             <a href="https://www.linkedin.com/in/alison-coutinho-820328234/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Linkedin" /></a>
                             <a href="https://github.com/TinhoLima" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Github" /></a>
                             <a href="https://www.facebook.com/alisson.coutinho.33/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Facebook" /></a>
-                            {/* <a href="https://www.instagram.com/alisoncouttinho/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></a> */}
                         </div>
                         <a href="#contact-me"><button>Contate-me!</button></a>
                     </span>
