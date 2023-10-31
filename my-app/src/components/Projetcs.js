@@ -2,6 +2,7 @@ import { Container, Col, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorShape2 from "../assets/img/color-sharp2.png"
 import emBreve from "../assets/img/em-breve2.png"
+import proj1 from "../assets/img/pet-list.png"
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
@@ -9,9 +10,10 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: emBreve,
+            title: "Pet List",
+            description: " Projeto CRUD onde é possível adicionar ou manipular os dados inseridos na tabela.",
+            subdescription: "Tecnologias: React.js, HTML5, CSS3, Bootstrap,Javascript, JSON",
+            imgUrl: proj1,
         },
         {
             title: "Business Startup",
@@ -55,10 +57,7 @@ export const Projects = () => {
                                         {
                                             projects.map((project, index) => {
                                                 return (
-                                                    <ProjectCard
-                                                        key={index}
-                                                        {...project}
-                                                    />
+                                                    <ProjectCard key={index} {...project} />
                                                 )
                                             })
                                         }
