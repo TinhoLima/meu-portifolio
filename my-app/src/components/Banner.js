@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle} from "react-bootstrap-icons"
 import { TypeAnimation } from "react-type-animation"
 import headerImg1 from "../assets/img/header-img10.svg"
-import pdf from "../assets/img/file-pdf.pdf"
+import pdf from "../assets/document/file-pdf.pdf"
 
 export const Banner = () => {
     return (
