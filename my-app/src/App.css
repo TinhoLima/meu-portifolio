@@ -549,25 +549,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-txtx h4 {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 
 .proj-txtx .description {
-  font-size: 0.8vw;
+  font-size: 1vw;
   font-weight: 200;
 }
 
 .proj-txtx .subdescription {
   font-style: italic;
-  font-size: 0.6vw;
+  font-size: 0.8vw;
   letter-spacing: 0.8px;
 }
 
 .proj-imgbx .link-proj {
-  font-size: 0.6vw;
+  font-size: 1vw;
   background-color: #2c2c2c5d;
   color: #fff;
   border-radius: 5px;
@@ -837,6 +837,121 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  nav.navbar {
+    background-color: var(--black);
+    padding: 0;
+  }
+
+  /******* media banner ******/
+  .banner {
+    padding: 150px 0 150px 0;
+  }
+
+  .banner .wrap {
+    font-size: 22px;
+  }
+
+  .banner p {
+    font-size: 18px;
+  }
+
+  .banner img {
+    margin-left: 70px;
+    margin-top: -80px;
+  }
+
+  /******* media skill ******/
+  .skill-bx {
+    padding: 5px;
+    padding: 5px 10px;
+    margin-top: -300px;
+  }
+
+  .skill-bx h2 {
+    padding: 20px 0 5px 0;
+  }
+
+  .skill-bx p {
+    padding: 30px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin: 0px;
+  }
+
+  /******* media project ******/
+  .project {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .project p {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin: 14px auto 30px auto;
+  }
+
+  .proj-txtx h4 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+  }
+
+  .proj-txtx .description {
+    font-size: 1em;
+    font-weight: 200;
+  }
+
+  .proj-txtx .subdescription {
+    font-style: italic;
+    font-size: 0.8em;
+    letter-spacing: 0.8px;
+    display: none;
+  }
+
+  .proj-imgbx .link-proj {
+    font-size: 1em;
+    background-color: #2c2c2c5d;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    padding: 8px 10px;
+    margin: 0 2vw;
+  }
+
+  /******* media about ******/
+  .about-bx {
+    padding: 5px;
+  }
+
+  .about-bx img {
+    width: 50%;
+  }
+
+  .about-bx p {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  /******* media contact ******/
+  .contact h1 {
+    font-size: 34px;
+  }
+
+  .contact .col-button {
+    text-align: center;
+  }
+
+  .contact button {
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px 0px;
+    width: 300px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   nav.navbar {
     background-color: var(--black);
@@ -951,4 +1066,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 10px 0px;
     width: 300px;
   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
 }
