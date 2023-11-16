@@ -12,13 +12,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-    <NavBar />
-    <Banner />
-    <Skills />
-    <Projects />
-    <About />
-    <Contact />
-    <Footer />
+      <NavBar />
+      <Banner />
+      <Skills />
+      <Projects />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }
