@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import colorShape2 from "../assets/img/color-sharp2.png"
 import emBreve from "../assets/img/em-breve2.png"
 import proj1 from "../assets/img/pet-list.png"
+import proj2 from "../assets/img/dsmovie.png"
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
@@ -16,9 +17,9 @@ export const Projects = () => {
             imgUrl: proj1,
         },
         {
-            title: "Business Startup",
+            title: "DSMovie",
             description: "Design & Development",
-            imgUrl: emBreve,
+            imgUrl: proj2,
         },
         {
             title: "Business Startup",
