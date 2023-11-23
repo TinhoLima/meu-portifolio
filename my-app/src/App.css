@@ -517,6 +517,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: auto;
 }
 
+.proj-imgbx img {
+  width: auto;
+  height: 308px;
+}
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #f25f29 -5.91%, #330063 111.58%);
@@ -549,29 +554,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-txtx h4 {
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 
 .proj-txtx .description {
-  font-size: 1vw;
+  font-size: 18px;
   font-weight: 200;
 }
 
 .proj-txtx .subdescription {
   font-style: italic;
-  font-size: 0.8vw;
+  font-size: 12px;
   letter-spacing: 0.8px;
 }
 
 .proj-imgbx .link-proj {
-  font-size: 1vw;
+  font-size: 16px;
   background-color: #2c2c2c5d;
   color: #fff;
   border-radius: 5px;
-  width: 100px;
+  width: 120px;
   padding: 8px 10px;
   margin: 0.5vw 1vw;
 }

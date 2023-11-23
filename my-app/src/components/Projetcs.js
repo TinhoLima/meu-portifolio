@@ -12,13 +12,12 @@ export const Projects = () => {
     const projects = [
         {
             title: "Pet List",
-            description: " Projeto CRUD onde é possível adicionar ou manipular os dados inseridos na tabela.",
-            subdescription: "Tecnologias: React.js, HTML5, CSS3, Bootstrap,Javascript, JSON",
+            description: "Adicionar, editar ou remover dados dos pets e seus donos.",
             imgUrl: proj1,
         },
         {
             title: "DSMovie",
-            description: "Design & Development",
+            description: "Catálogo para avaliação de filmes",
             imgUrl: proj2,
         },
         {
