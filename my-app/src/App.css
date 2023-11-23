@@ -563,6 +563,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx .description {
   font-size: 18px;
   font-weight: 200;
+  margin: 0 20px;
 }
 
 .proj-txtx .subdescription {
@@ -572,13 +573,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-imgbx .link-proj {
-  font-size: 16px;
+  font-size: 14px;
   background-color: #2c2c2c5d;
   color: #fff;
   border-radius: 5px;
-  width: 120px;
-  padding: 8px 10px;
-  margin: 0.5vw 1vw;
+  width: 100px;
+  padding: 10px 10px;
+  margin: 10px;
 }
 
 .proj-imgbx .link-proj:hover {

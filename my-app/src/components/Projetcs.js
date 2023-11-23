@@ -14,11 +14,15 @@ export const Projects = () => {
             title: "Pet List",
             description: "Adicionar, editar ou remover dados dos pets e seus donos.",
             imgUrl: proj1,
+            linkPag: "https://alison-crudreact.netlify.app",
+            linkRepo: "https://github.com/TinhoLima/crud-react/tree/main/frontend",
         },
         {
             title: "DSMovie",
             description: "Catálogo para avaliação de filmes",
             imgUrl: proj2,
+            linkPag: "https://alison-dsmovie.netlify.app",
+            linkRepo: "https://github.com/TinhoLima/dsmovie/tree/main",
         },
         {
             title: "Business Startup",

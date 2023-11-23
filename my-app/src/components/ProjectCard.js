@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, subdescription, imgUrl }) => {
+export const ProjectCard = ({ title, description, subdescription, imgUrl, linkPag, linkRepo }) => {
     
     return (
         <Col sm={12} md={12} lg={4}>
@@ -12,8 +12,9 @@ export const ProjectCard = ({ title, description, subdescription, imgUrl }) => {
                     <br/>
                     <span className="subdescription">{subdescription}</span>
                     <br/>
-                    <button className="link-proj">Página</button>
-                    <button className="link-proj">Repositório</button>
+                    <a href={linkPag} target="_blank"><button className="link-proj">Página</button></a>
+                    <a href={linkRepo} target="_blank"><button className="link-proj">Repositório</button></a>
+                    <a href=""><button className="link-proj">Descrição</button></a>
                 </div>
             </div>
         </Col>
