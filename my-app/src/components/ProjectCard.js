@@ -1,7 +1,9 @@
 import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl, linkPag, linkRepo }) => {
-    
+    const aviso = () => {
+        window.alert('Em manutenção.')
+    }
     return (
         <Col sm={12} md={12} lg={4}>
             <div className="proj-imgbx">
@@ -12,7 +14,7 @@ export const ProjectCard = ({ title, description, imgUrl, linkPag, linkRepo }) =
                     <br/>
                     <a href={linkPag} target="_blank"><button className="link-proj">Página</button></a>
                     <a href={linkRepo} target="_blank"><button className="link-proj">Repositório</button></a>
-                    <a href=''><button className="link-proj">Descrição</button></a>
+                    <button className="link-proj" onClick={aviso}>Descrição</button>
                 </div>
             </div>
         </Col>
