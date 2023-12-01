@@ -1,11 +1,11 @@
 import { Container, Col, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorShape2 from "../assets/img/color-sharp2.png"
+import colorShape2 from "../assets/img/em-breve.png"
 import emBreve from "../assets/img/em-breve2.png"
 import proj1 from "../assets/img/pet-list.png"
 import proj2 from "../assets/img/dsmovie.png"
-import 'animate.css'
 import TrackVisibility from 'react-on-screen'
+import 'animate.css'
 
 export const Projects = () => {
 
@@ -16,6 +16,7 @@ export const Projects = () => {
             imgUrl: proj1,
             linkPag: "https://alison-crudreact.netlify.app",
             linkRepo: "https://github.com/TinhoLima/crud-react/tree/main/frontend",
+            about: 'React, HTML5, CSS3, Bootstrap, Javascript, JSON',
         },
         {
             title: "DSMovie",
@@ -23,6 +24,7 @@ export const Projects = () => {
             imgUrl: proj2,
             linkPag: "https://alison-dsmovie.netlify.app",
             linkRepo: "https://github.com/TinhoLima/dsmovie/tree/main",
+            about: 'React, TypeScript, HTML5, CSS3, Bootstrap, Javascript, Java, Spring-boot',
         },
         {
             title: "Business Startup",
@@ -78,7 +80,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorShape2} alt="img"></img>
+            {/* <img className="background-image-right" src={colorShape2} alt="img"></img> */}
         </section>
     )
 }
