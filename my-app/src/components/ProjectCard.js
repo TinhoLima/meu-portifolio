@@ -1,8 +1,8 @@
 import { Col } from "react-bootstrap";
-import { Example } from "./ProjectModal";
+import { ModalProject } from "./ProjectModal";
 
 export const ProjectCard = ({ title, description, imgUrl, linkPag, linkRepo, about }) => {
-    const minhaFuncao = Example(title, about)
+    const minhaFuncao = ModalProject(title, about)
 
     return (
         <Col sm={12} md={12} lg={4}>

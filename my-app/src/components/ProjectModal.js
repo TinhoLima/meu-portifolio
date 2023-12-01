@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
-export const Example = (title, about) => {
+export const ModalProject = (title, about) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);

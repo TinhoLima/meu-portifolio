@@ -591,6 +591,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 30px;
 }
 
+.closeButton {
+  color: var(--white);
+}
+
 .modal-content .modal-description {
   color: var(--primary-color);
 }

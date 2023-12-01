@@ -1,6 +1,5 @@
 import { Container, Col, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorShape2 from "../assets/img/em-breve.png"
 import emBreve from "../assets/img/em-breve2.png"
 import proj1 from "../assets/img/pet-list.png"
 import proj2 from "../assets/img/dsmovie.png"
