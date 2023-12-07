@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
-export const ModalProject = (title, about) => {
+export const ModalProject = (title, about, technology) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -20,12 +20,17 @@ export const ModalProject = (title, about) => {
         centered
       >
         <Modal.Header closeButton>
-          <Modal.Title>{title} </Modal.Title>
+          <Modal.Title>
+            {title}
+          </Modal.Title>
         </Modal.Header >
         <Modal.Body>
-          <p className='modal-description'>Tecnlogias usadas no projeto:</p>
-          <p className='modal-technology'>{about}</p>
+          <p className='modal-about'>{about}</p>
         </Modal.Body>
+        <Modal.Footer>
+          <p className='modal-description'>Tecnlogias usadas no projeto:</p>
+          <p className='modal-technology'>{technology}</p>
+        </Modal.Footer>
       </Modal>
     </>
   );

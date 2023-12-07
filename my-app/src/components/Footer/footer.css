@@ -1,0 +1,47 @@
+.footer {
+  background-image: url('../../assets/img/footer-bg.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-bx {
+  padding: 100px 10px 50px 10px;
+}
+
+.footer-bx .icon {
+  text-align: right;
+  align-self: flex-end;
+}
+
+.footer img {
+  width: 20%;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+/************* Media Querie ****************/
+
+/* Mobile */
+@media (max-width: 480px) {}
+
+/* Extra small devices */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Small tablets */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large tablets/laptops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Desktop */
+@media (min-width: 1200px) and (max-width: 1919px) {}
+
+/* Extra large screens */
+@media (min-width: 1920px) {}

@@ -1,7 +1,8 @@
 import { Container, Col, Row } from "react-bootstrap"
 import TrackVisibility from "react-on-screen"
-import foto from '../assets/img/perfil5.jpg'
-import colorSharp2 from '../assets/img/color-sharp2.png'
+import foto from '../../assets/img/perfil5.jpg'
+import colorSharp2 from '../../assets/img/color-sharp2.png'
+import "./about.css"
 
 export const About = () => {
     return (

@@ -1,9 +1,10 @@
 import { Container, Col, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import emBreve from "../assets/img/em-breve2.png"
-import proj1 from "../assets/img/pet-list.png"
-import proj2 from "../assets/img/dsmovie.png"
+import emBreve from "../../assets/img/em-breve2.png"
+import proj1 from "../../assets/img/pet-list.png"
+import proj2 from "../../assets/img/dsmovie.png"
 import TrackVisibility from 'react-on-screen'
+import "./projects.css"
 import 'animate.css'
 
 export const Projects = () => {
@@ -15,7 +16,8 @@ export const Projects = () => {
             imgUrl: proj1,
             linkPag: "https://alison-crudreact.netlify.app",
             linkRepo: "https://github.com/TinhoLima/crud-react/tree/main/frontend",
-            about: 'React, HTML5, CSS3, Bootstrap, Javascript, JSON',
+            about: 'O site oferece uma interface com simples navegação para realizar cadastro e alteração de dados feito pelos usuários (CRUD System). Os dados são armazenados em um banco de dados JSON.',
+            technology: 'React, HTML5, CSS3, Bootstrap, Javascript, JSON',
         },
         {
             title: "DSMovie",
@@ -23,7 +25,8 @@ export const Projects = () => {
             imgUrl: proj2,
             linkPag: "https://alison-dsmovie.netlify.app",
             linkRepo: "https://github.com/TinhoLima/dsmovie/tree/main",
-            about: 'React, TypeScript, HTML5, CSS3, Bootstrap, Javascript, Java, Spring-boot',
+            about: 'O projeto consiste em um sistema de avaliação de filmes e séries com pontuações de 1 a 5 onde mostra uma média de pontos conforme a avaliação dos usuários.',
+            technology: 'React, TypeScript, HTML5, CSS3, Bootstrap, Javascript, Java, Spring-boot',
         },
         {
             title: "Business Startup",
@@ -47,13 +50,13 @@ export const Projects = () => {
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                    <Nav.Link eventKey="first">1</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                    <Nav.Link eventKey="second">2</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third" disabled>Tab 3</Nav.Link>
+                                    <Nav.Link eventKey="third" disabled>3</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
@@ -79,7 +82,6 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-right" src={colorShape2} alt="img"></img> */}
         </section>
     )
 }
