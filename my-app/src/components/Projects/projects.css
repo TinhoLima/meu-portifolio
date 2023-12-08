@@ -156,22 +156,34 @@
   background-color: var(--black);
 }
 
+.background-image-right {
+  top: 0%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
+}
+
+/************* Modal ****************/
+.btn-close {
+  background-color: var(--white) !important;
+}
+
 .modal-content {
   padding: 20px;
-  background-color: var(--black-secondary) !important;
+  background-color: var(--black) !important;
 }
 
 .modal-title {
-  font-size: 30px;
+  font-size: 30px !important;
+  color: #f05f1c !important;
 }
 
-.closeButton {
-  color: var(--white);
-}
 
 .modal-content .modal-about {
   font-size: 20px;
-  /* background-color: #f25f29; */
+  color: #d6d6d6;
 }
 
 .modal-content .modal-description {
@@ -182,14 +194,6 @@
   font-size: 18px;
 }
 
-.background-image-right {
-  top: 0%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-}
 
 /************* Media Querie ****************/
 
