@@ -52,7 +52,7 @@ export const NavBar = () => {
                             <a href="https://github.com/TinhoLima" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Github" /></a>
                             <a href="https://www.facebook.com/alisson.coutinho.33/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Facebook" /></a>
                         </div>
-                        <a href="#contact-me"><button>Contate-me!</button></a>
+                        <a href="#contact-me"><button>Fale comigo!</button></a>
                     </span>
                 </Navbar.Collapse>
             </Container>
