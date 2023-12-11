@@ -25,7 +25,7 @@ export const Projects = () => {
             imgUrl: proj2,
             linkPag: "https://alison-dsmovie.netlify.app",
             linkRepo: "https://github.com/TinhoLima/dsmovie/tree/main",
-            about: 'O projeto consiste em um sistema de avaliação de filmes e séries criando um ranking com pontuações de 1 a 5 onde mostra uma média de pontos conforme a avaliação dos usuários. (Tempo estimado para carregamento do backend é de 2 minutos. *estamos trabalhando para melhorar o carregamento*)',
+            about: 'O projeto consiste em um sistema de avaliação de filmes e séries criando um ranking com pontuações de 1 a 5 onde mostra uma média de pontos conforme a avaliação dos usuários. (Tempo estimado para carregamento do backend é de 2 minutos. *estamos trabalhando para melhorar o load da página*)',
             technology: 'React, TypeScript, HTML5, CSS3, Bootstrap, Javascript, Java, Spring-boot',
         },
         {

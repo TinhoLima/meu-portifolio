@@ -138,7 +138,6 @@
 .proj-txtx .description {
   font-size: 18px;
   font-weight: 200;
-  margin: 0 20px;
 }
 
 .proj-imgbx .link-proj {
@@ -148,7 +147,7 @@
   border-radius: 5px;
   width: 100px;
   padding: 10px 10px;
-  margin: 10px;
+  margin: 20px 5px 0px 0px;
   text-decoration: none;
 }
 
@@ -336,6 +335,36 @@
   .proj-imgbx img {
     width: auto;
     height: 250px;
+  }
+  .project {
+    padding: 50px;
+    width: 100%;
+  }
+
+
+  .project p {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin: 14px auto 30px auto;
+  }
+
+  .proj-txtx h4 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+  }
+
+  .proj-txtx .description {
+    font-size: 1.2em;
+  }
+
+  .proj-imgbx .link-proj {
+    font-size: 1em;
+    background-color: #2c2c2c5d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 10px;
   }
 
 }
