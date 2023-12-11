@@ -28,7 +28,7 @@ export const ModalProject = (title, about, technology) => {
           <p className='modal-about'>{about}</p>
         </Modal.Body>
         <Modal.Footer>
-          <p className='modal-description'>Tecnlogias usadas no projeto:</p>
+          <p className='modal-contrast'>Tecnlogias usadas no projeto:</p>
           <p className='modal-technology'>{technology}</p>
         </Modal.Footer>
       </Modal>
