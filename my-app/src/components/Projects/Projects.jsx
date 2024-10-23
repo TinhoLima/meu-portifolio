@@ -29,8 +29,8 @@ export const Projects = () => {
             technology: 'React, TypeScript, HTML5, CSS3, Bootstrap, Javascript, Java, Spring-boot',
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "",
+            description: "",
             imgUrl: emBreve,
         },
     ];
