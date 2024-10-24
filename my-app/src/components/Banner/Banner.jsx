@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle} from "react-bootstrap-icons"
 import { TypeAnimation } from "react-type-animation"
 import headerImg1 from "../../assets/img/header-img10.svg"
-import pdf from "../../assets/document/file-pdf.pdf"
+import pdf from "../../assets/document/alison-coutinho-cv.pdf"
 import "./banner.css"
 
 export const Banner = () => {
@@ -28,7 +28,7 @@ export const Banner = () => {
                             repeat={Infinity}
                         />
                         <p>Sejam muito bem-vindos! Meu nome é Alison Coutinho e sou apaixonado por desenvolvimento e por toda a área de tecnologia. Nesta página você vai encontrar meus projetos pessoais, minhas skills e minhas informações de contato.</p>
-                        <a href={pdf} download="file-pdf"><button className="banner-cv">Download CV<ArrowRightCircle size={20}/></button></a>
+                        <a href={pdf} download="alison-coutinho-cv"><button className="banner-cv">Download CV<ArrowRightCircle size={20}/></button></a>
                     </Col>
                     <Col xs={12} md={2} xl={5}>
                         <img src={headerImg1} alt="Headder Img" />
